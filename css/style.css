@@ -3,7 +3,6 @@
 .navbar{
     padding: 2rem;
     background:linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, #1b1b32 100%);
-   /* background-color: #dbe1e7 ;*/
 }
 
 .navbar .nav-link:hover{
@@ -11,6 +10,7 @@
     text-decoration:underline;
     font-size: 1.2em;
     color: #000000;
+    text-shadow: 0 0 25px #000;
 }
 
 .navbar-collapse{
@@ -132,8 +132,8 @@ h1, h2{
 }
 
 .car{
-    border: 5px solid #539bdb;
-    box-shadow: 0 0 20px #1877f2, 0 0 40px #1459b3, 0 0 60px #179bff; 
+    border: 5px solid #fff;
+    box-shadow: 0 0 40px #1b1b32; 
     display: flex;
     align-items: center;
     width: 75vw;
@@ -368,6 +368,7 @@ figure.snip1390{
     background-image: linear-gradient(-25deg, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.1) 100%);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    box-shadow: 0 0 35px #2c3447;
 }
 
 figure.snip1390 *, figure.snip1390 *::before, figure.snip1390 *::after{
